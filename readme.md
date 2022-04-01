@@ -7,7 +7,8 @@
 
 `
 npm i
-
+`  
+`
 nodejs gen_address.js
 `
 
