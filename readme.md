@@ -6,7 +6,8 @@
 ## 第一步 准备工作 & 生成地址
 
 `
-npm i  
+npm i
+
 nodejs gen_address.js
 `
 
