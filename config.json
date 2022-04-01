@@ -2,7 +2,6 @@
     "ss58Format":   0,
     "WsProvider": "wss://rpc.polkadot.io",
     "Mnemonics": "",
-    "BOB":  "",
     "amount": 500000000,
     "addresses": [
         "",

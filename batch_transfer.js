@@ -17,7 +17,7 @@ async function main () {
   console.log(alice.address);
 
   for (i = 0;i < config.addresses.length; i++) {
-      const transfer = api.tx.balances.transfer(config.BOB, config.amount);
+      const transfer = api.tx.balances.transfer(config.addresses[i], config.amount);
       const hash = await transfer.signAndSend(alice);
       console.log(`${i+1} tx, to address: ${config.addresses[i]}, hash: ${hash.toHex()}`);
 
