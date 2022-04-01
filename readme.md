@@ -3,9 +3,10 @@
 该程序随机生成DOT地址，并可以使用该地址批量转出等额DOT  
 请使用nodejs V16版本
 
-## 第一步 生成地址
+## 第一步 准备工作 & 生成地址
 
 `
+npm i  
 nodejs gen_address.js
 `
 
