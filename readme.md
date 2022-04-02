@@ -9,7 +9,7 @@
 npm i
 `  
 `
-nodejs gen_address.js
+node gen_address.js
 `
 
 输出为：
